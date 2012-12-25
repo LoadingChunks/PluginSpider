@@ -1,0 +1,9 @@
+directories:
+    root: '/home/ben/code/plugindownloader'
+    modules:
+        processors: 'modules/processors'
+        feeds: 'modules/feeds'
+        downloaders: 'modules/downloaders'
+    plugins: '/home/ben/code/plugindownloader/plugins' 
+    configs:
+        plugins: 'cfg/plugins'

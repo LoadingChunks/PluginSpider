@@ -1,0 +1,12 @@
+name: iChat
+url: http://dev.bukkit.org/server-mods/ichat/
+modules:
+    feed:
+        class: BukkitDevFeed
+        data: http://dev.bukkit.org/server-mods/ichat/files.rss
+    downloader:
+        class: BukkitDevDownloader
+        filename: iChat.jar
+    processor:
+        class: JarProcessor
+        filename: iChat.jar
